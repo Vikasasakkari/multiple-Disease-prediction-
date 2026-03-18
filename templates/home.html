@@ -1,0 +1,124 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="stylesheet" href="{% static 'css/style1.css' %}">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+  <title>LifeAI</title>
+ 
+  <link rel="stylesheet" href="{% static 'css/style1.css' %}">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+   <style>
+    
+    .ag-courses_box {
+      padding: 30px 0;
+      width: 1319px;
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <div class="jumbotron">
+    <h1 class="display-5">Integrated Machine Learning Approach for Predicting Multiple Diseases Using Random Forest and
+      Gradient Boosting</h1>
+  </div>
+
+  <div class="ag-format-container">
+    <div class="ag-courses_box">
+      <div class="ag-courses_item">
+        <a href="{% url 'breast' %}" class="ag-courses-item_link">
+          <div class="ag-courses-item_bg"></div>
+
+          <div class="ag-courses-item_title">
+            Breast Cancer Detection
+          </div>
+
+          <div class="ag-courses-item_date-box">
+            Algorithm:
+            <span class="ag-courses-item_date">
+              Hybrid model(RF+GB)(97.36%)
+            </span>
+          </div>
+        </a>
+      </div>
+
+      <div class="ag-courses_item">
+        <a href="{% url 'heart' %}" class="ag-courses-item_link">
+          <div class="ag-courses-item_bg"></div>
+
+
+          <div class="ag-courses-item_title">
+            Heart Disease Detection
+          </div>
+
+          <div class="ag-courses-item_date-box">
+            Algorithm:
+            <span class="ag-courses-item_date">
+              Hybrid model(RF+GB)(98.63%)
+            </span>
+          </div>
+        </a>
+      </div>
+
+      <div class="ag-courses_item">
+        <a href="{% url 'diabetes' %}" class="ag-courses-item_link">
+          <div class="ag-courses-item_bg"></div>
+
+          <div class="ag-courses-item_title">
+            Diabetes Detection
+          </div>
+
+          <div class="ag-courses-item_date-box">
+            Algorithm:
+            <span class="ag-courses-item_date">
+              Hybrid model(RF+GB)(89.0%)
+            </span>
+          </div>
+        </a>
+      </div>
+
+      <div class="ag-courses_item">
+        <a href="{% url 'indexp' %}" class="ag-courses-item_link">
+          <div class="ag-courses-item_bg"></div>
+
+          <div class="ag-courses-item_title">
+            Parkinson's Disease Detection
+          </div>
+
+          <div class="ag-courses-item_date-box">
+            Algorithm:
+            <span class="ag-courses-item_date">
+              Hybrid model(RF+GB)(96.87%)
+            </span>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
