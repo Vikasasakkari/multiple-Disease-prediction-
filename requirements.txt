@@ -1,0 +1,9 @@
+Django==2.2.24
+gunicorn
+whitenoise
+dj-database-url
+psycopg2-binary
+numpy
+pandas
+scikit-learn
+tensorflow==2.4.1
