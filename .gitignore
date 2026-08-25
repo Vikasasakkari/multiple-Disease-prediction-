@@ -1,0 +1,32 @@
+# Ignore Python/Django artifacts and local files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+
+# OS files
+.DS_Store
+
+# Django
+db.sqlite3
+/staticfiles
+media/
+.alz_models/
+
+# Environment variables
+.env
+
+# model files (optional - consider using S3 or Git LFS instead)
+*.h5
+*.pkl
+
+# Editor directories
+.vscode/
+.idea/
+
+# Logs
+*.log
